@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----- Navigation -----*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar {
+    background: #fff;
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color: #007bff!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*--- Slider ---*/
+
+#slider {
+    width: 100%;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 42px;
+}
+.d-block{
+    width: 100%;
+}
+
+
+/*---- Despre noi ----*/
+
+
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content {
+    padding-top: 20px;
+}
+.about-content h1 {
+    color: #007bff;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.skills-bar {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar {
+    border-radius: 16px;
+}
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+.no-change h2 {
+    color: #007bff;
+}
+.icon-urgent {
+    color: #e60000;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+
+/*---- Servicii ----*/
+
+
+
+#services {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Photos/services.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h1::after {
+    content: '';
+    background: #ffff1a;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services {
+    margin-top: 40px;
+}
+.icon-mobile {
+    color:#007bff;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.icon-decodari {
+    color: #248f24;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.icon-accesorii {
+    color:#ffff1a;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.icon-service {
+    color:#007bff;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.icon-laptop {
+    color:#007bff;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.icon-hardware {
+    color:#e60000;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+#services p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover {
+    background: #00001a;
+    cursor: pointer;
+    transition: 1s;
+}
+.services .col-md-6:hover {
+    background: #00001a;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+/*---- Echipa noastra ----*/
+
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.container h1 {
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+ .container h1::after {
+    content: '';
+    background: #ffff1a;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic {
+    margin-top: 25px;
+}
+.profile-pic .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+
+}
+.img-box h3 {
+    font-weight: 150;
+}
+#team .fa {
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+
+
+/*---- Status reparatie ----*/
+
+
+
+#repair {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+.status h1 {
+        text-align: center;
+        color: #555 !important;
+        padding-bottom: 10px;
+}
+.status h1::after {
+    content: '';
+    background: #ffff1a;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.status p {
+    font-size: 20px;
+    text-align: center;
+}
+.step0 h1 {
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.step0 h1::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.step1 h1 {
+    text-align: center;
+    color: #007bff;
+    padding-bottom: 10px;
+}
+.step1 h1::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
